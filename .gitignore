@@ -1,0 +1,32 @@
+#  Diretório padrão criado pelo Vagrant
+.vagrant/
+
+#  Boxes locais (não devem ser versionados)
+*.box
+
+#  Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+*.bak
+
+#  Arquivos de saída de provisionamento
+*.out
+*.err
+
+#  Scripts ou artefatos gerados durante a configuração
+provisioning/tmp/
+provisioning/*.retry
+
+#  Arquivos de máquina virtual (VirtualBox, VMware, etc.)
+*.vdi
+*.vmdk
+*.vagrant
+*.vmx
+*.nvram
+*.vbox
+*.vbox-prev
+
+# Arquivos de cache do Vagrant (dependendo do plugin)
+.vagrant.d/
+.cache/
